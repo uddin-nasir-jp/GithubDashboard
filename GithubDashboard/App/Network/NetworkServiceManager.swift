@@ -74,7 +74,7 @@ final class NetworkServiceManager: NetworkServiceProtocol {
         guard let url = components.url else { return nil }
         var request = URLRequest(url: url)
         request.httpMethod = endpoint.method.rawValue
-        request.addValue("Bearer " + APIConstants.ACCESS_TOKEN, forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer " + APIConstants.ACCESS_TOKEN_2, forHTTPHeaderField: "Authorization")
         request.allHTTPHeaderFields = endpoint.headers
         
         if let body = endpoint.body {
