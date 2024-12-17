@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "⭐ %lld" : {
+
+    },
+    "Error: %@" : {
+
+    },
+    "Followers: %lld" : {
+
+    },
+    "Following: %lld" : {
+
+    },
+    "Invalid URL" : {
+
+    },
+    "Language: %@" : {
+
+    },
+    "Loading..." : {
+
+    },
+    "Repos: %lld" : {
+
+    },
+    "Repositories" : {
+
+    },
+    "Repository" : {
+
+    },
+    "User List" : {
+
+    }
+  },
+  "version" : "1.0"
+}
