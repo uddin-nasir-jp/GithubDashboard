@@ -3,6 +3,7 @@ import SwiftUI
 
 struct GitHubUserListView: View {
     // MARK: - PROPERTIES
+    @Environment(\.logger) var logger
     var userViewModel: GitHubUserViewModel
     
     var body: some View {
@@ -32,6 +33,8 @@ struct GitHubUserListView: View {
                 if userViewModel.githubUserList.isEmpty {
                     userViewModel.fetchUsers() // Initial data fetch
                 }
+                // Show log
+                logger.log("GitHubUserListView Appeared")
             }
         }
     }

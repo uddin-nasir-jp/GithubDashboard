@@ -1,5 +1,5 @@
 
-enum Environment {
+enum BuldEnvironment {
     case development
     case staging
     case production

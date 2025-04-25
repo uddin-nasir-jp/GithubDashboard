@@ -8,6 +8,7 @@ struct GithubDashboardApp: App {
     var body: some Scene {
         WindowGroup {
             GitHubUserListView(userViewModel: GitHubUserViewModel(userService: userService))
+                .environment(\.logger, ConsoleLogger())
         }
     }
 }

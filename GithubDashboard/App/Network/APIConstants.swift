@@ -1,6 +1,6 @@
 
 struct APIConstants {
-    static let environment = Environment.development
+    static let environment = BuldEnvironment.development
 
     static var baseURL: String {
         return environment.baseURL
